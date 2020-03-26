@@ -1,0 +1,346 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  font-family: ;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: ;
+}
+a,a:hover{
+  text-decoration: none;
+}
+
+.header-section{
+  width: 100%;
+  background: url(../images/hero.png) center top no-repeat;
+  background-size: cover;
+
+}
+.header-section .bg-light{
+  background-color: transparent !important;
+
+}
+.header-section .logo{
+  width: 125px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+  color: #511DE5;
+  background: url(../images/layer-8.png) center bottom no-repeat;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+  color: #511DE5;
+  background: url(../images/layer-8.png) center bottom no-repeat;
+}
+.header-section .nav .nav-item .nav-link{
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.header-section .nav .nav-item .nav-link.btn.btn-info {
+  border-radius: 50px;
+  padding: 5px 28px;
+  background: #4810e8 !important;
+  color: #fff;
+  margin: 0px 30px;
+}
+.banner {
+  width: 100%;
+  padding: 130px 0px;
+}
+.banner-inner {
+  padding: 0;
+  width: 100%;
+}
+.banner .btn .btn-info {
+  background-color: #F2F2F2;
+  color: black;
+  border-radius: 50px;
+  border: none;
+}
+.banner .btn {
+  margin: 30px 0px 0px 315px;
+  background-color: #F6F6F6;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.banner h1 {
+  margin: 90px 0px 0px 0px;
+  font-weight: 800;
+  text-align: right;
+  font-size: 51px;
+  line-height: 60px;
+}
+.banner strong{
+  font-weight: bolder;
+  color:#511DE5;
+}
+.highlight{
+  width: 100%;
+  background: url(../images/highlight-area.png) center top no-repeat;
+  background-size: cover;
+  padding: 30px 0px;
+  text-align: center;
+}
+.highlight h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  margin-top: 35px;
+}
+.feature{
+  width: 100%;
+  padding: 80px 0px;
+}
+.feature-inner{
+  width: 80%;
+  margin:100px auto;
+  padding: 45px 0px;
+  background:url(../images/girl.png) bottom right no-repeat;
+  box-shadow: 0px 0px 10px 4px #ccc;
+}
+.feature-inner h2 {
+  margin: 40px 0px 40px 80px;
+  font-weight: 800;
+}
+.feature-inner p {
+  margin: 0px 0px 70px 80px;
+}
+.feature-inner span {
+  margin: 0px 8px 0px 0px;
+  color: #511DE5;
+  font-weight: 800;
+  font-size: 90px;
+}
+.client-list {
+ width: 80%;
+}
+.client-list img {
+  margin-left: 160px;
+  width: 90%;
+}
+.qts {
+  background: url(../images/rectangle-8.png) center top no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  padding: 0;
+  margin-left: 115px;
+}
+.qts-inner {
+  background: url(../images/quote.png) center top no-repeat;
+  background-size: cover;
+  padding: 70px;
+}
+.qts-inner p {
+  text-align: left;
+  color: white;
+  padding: 0px;
+  margin: 45px 0px 40px 30px;
+}
+.qts-inner span {
+  text-align: left;
+  margin: 0px 0px 0px 25px;
+  color: white;
+  font-weight: 700;
+}
+.qts-inner-right{
+  padding:100px;
+}
+.qts-inner-right a.btn.btn-info {
+  border-radius: 30px;
+  background: #FFFFFF !important;
+  color: #000;
+  border: none;
+  margin-top: 30px;
+  margin-left: 90px;
+  letter-spacing: 2px;
+}
+.qts-inner-right a i{
+  margin: 10px;
+}
+.qts-inner-right h1 {
+  font-weight: 700;
+  line-height: 35px;
+  margin-left: 90px;
+}
+.wisdom-right{
+  background: url(../images/images.png) center top no-repeat;
+}
+.wisdom {
+  width: 84%;
+  margin: 150px 130px auto;
+}
+.wisdom-left{
+
+}
+.wisdom-left ul{
+  list-style:none;
+  display: flex;
+  margin:5px;
+}
+.wisdom-left ul li{
+  margin: 5px;
+}
+.wisdom-left ul li span{
+  font-weight: 700;
+}
+.wisdom-left h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.wisdom-left p{
+  margin-bottom: 40px;
+
+}
+.wisdom-left a.btn.btn-info {
+  border-radius: 30px;
+  padding: 10px 24px;
+  background: #511DE5!important;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.wisdom-left a i{
+  margin-left: 10px;
+}
+.wisdom-right img{
+  width: 100%;
+}
+.service{
+  background-color: #FCFCFC;
+}
+
+.service .service-upper{
+  text-align: center;
+  padding-top: 100px;
+}
+.service .service-upper h1{
+  margin: 0px 0px 50px 0px;
+  font-weight: 800;
+}
+.service .service-upper p{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.box-inner{
+  text-align: center;
+  padding-top: 90px;
+}
+.box-inner h1{
+  font-weight: 700;
+}
+.box-inner p{
+  margin: 20px;
+}
+.box-inner img{
+  margin: auto;
+}
+.mot-head{
+  text-align: center;
+  padding-top: 100px;
+
+}
+.mot-head h1{
+  font-weight: 800;
+  margin-bottom: 70px;
+}
+.inner-text {
+  background: url(../images/01.png) center top no-repeat;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  transition: 0.8s;
+}
+.inner-text p {
+  text-align: center;
+  font-weight: 700;
+  transition: 0.8s;
+}
+.inner-text h3{
+  text-align: center;
+}
+.inner-text h6{
+  text-align: center;
+  font-weight: 600;
+}
+.inner-text img {
+  margin: 70px 100px 15px 100px;
+}
+.inner-text p:hover{
+  color:#511DE5;
+  padding: 10px;
+  transition: 0.8s;
+}
+.inner-text:hover {
+  box-shadow: 0px 0px 18px -5px;
+  transition: 0.8s;
+}
+.box-control{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.footer {
+  background: url(../images/footer.png) center bottom no-repeat;
+  padding: 210px;
+}
+.footer-inner {
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0px 0px 18px -5px;
+  margin-bottom: 0;
+  background: white;
+}
+.footer-inner h1{
+  padding: 50px;
+  font-weight: 800;
+}
+.footer-inner p{
+  margin: 30px 20px;
+  text-align: left;
+}
+.uppertext p {
+  color: #511DE5;
+  font-weight: 700;
+  margin: 20px;
+}
+.downtext{
+  margin-top: 50px;
+  position: relative;
+}
+.downtext p {
+  margin: 20px;
+  font-weight: 700;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 280px;
+}
+.footer ul li {
+    color: white;
+    margin: 0px 14px 0px 0px;
+    font-weight: 600;
+}
+.footer span {
+  color: white;
+  margin-left: 300px;
+  font-weight: 600;
+}
